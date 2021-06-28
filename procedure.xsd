@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="processOutput"/>
+    <xs:all>
+      <xs:element name="outputName" type="output"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:simpleType name="outputList">
+    <xs:list itemType="processOutput"/>
+  </xs:simpleType>
+  
+  
+  <xs:complexType name="process">
+    <xs:element name="outputs" type="outputList" />
+  </xs:complexType>
+  
+  <xs:complexType name="substance">
+  </xs:complexType>
+</xs:schema>
