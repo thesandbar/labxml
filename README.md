@@ -36,3 +36,5 @@ Goals:
     c) Basic library creator
     
     d) Combined dynamic visual display + editor
+
+[Click here for demo](demo.html)
